@@ -2,7 +2,7 @@ class Person {
     constructor (name, age, gender, interests) {
         this.name = name;
         this.age = age;
-        this.geneder = gender;
+        this.gender = gender;
         this.interests = interests;
     }
     hello() {
@@ -14,4 +14,4 @@ let person = new Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard 
 let greeting = person.hello();
 console.log(greeting);
 
-module.exports = {Person};
+
